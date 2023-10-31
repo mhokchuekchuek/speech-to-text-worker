@@ -13,7 +13,7 @@ An Elasticsearch for text semantic task
 ```python
 # init elasticsearch client
 from elasticsearch import Elasticsearch
-from worker.service.search import SearchService
+from elasticsearch_text.service.search import SearchService
 client = Elasticsearch('http://localhost:9200')
 
 # add elasticsearch client to Searchservice
